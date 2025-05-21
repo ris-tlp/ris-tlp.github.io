@@ -12,7 +12,6 @@ export default function App() {
 
       <About />
 
-      {/* <div className="h-[200vh] bg-sage-green"></div> */}
     </>
   );
 }

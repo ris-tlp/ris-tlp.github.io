@@ -7,7 +7,7 @@ export default function Hero() {
         <h1 className="text-8xl font-bold">omar khan.</h1>
         <div id="icons" className="flex space-x-4 mt-4 justify-center">
           <a href="https://www.linkedin.com/in/omar-pk/" target="_blank" rel="noopener noreferrer">
-            <FaLinkedin className="text-3xl hover:text-[#f6f2b8] transition" />
+            <FaLinkedin className="text-3xl hover:text-white transition" />
           </a>
           <a href="https://github.com/ris-tlp" target="_blank" rel="noopener noreferrer">
             <FaGithub className="text-3xl hover:text-white transition" />

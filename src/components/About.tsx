@@ -14,7 +14,7 @@ export default function About() {
   
             <div className="grid md:grid-cols-2 gap-4 md:gap-8 max-w-5xl mx-auto">
               {aboutMeItems.slice(0, 2).map((item, index) => (
-                <div key={index} className={`md:space-y-8 ${index === 1 ? 'md:mt-32' : ''}`}>
+                <div key={index} className={`md:space-y-8 ${index === 1 ? "md:mt-32" : ""}`}>
                   <p className="text-start">{item}</p>
                 </div>
               ))}
@@ -22,7 +22,7 @@ export default function About() {
   
             <div className="grid md:grid-cols-2 gap-4 md:gap-8 max-w-5xl mx-auto -my-6">
               {aboutMeItems.slice(2, 4).map((item, index) => (
-                <div key={index} className={`space-y-8 ${index === 1 ? 'md:mt-16' : ''}`}>
+                <div key={index} className={`space-y-8 ${index === 1 ? "md:mt-16" : ""}`}>
                   <p className="text-start">{item}</p>
                 </div>
               ))}
