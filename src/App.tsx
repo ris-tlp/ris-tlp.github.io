@@ -7,6 +7,7 @@ import Slider from "./components/Slider";
 import WorkExperience from "./components/WorkExperience";
 
 import "./App.css";
+import Education from "./components/Education";
 
 export default function App() {
   const [isHeroVisible, setIsHeroVisible] = useState(false);
@@ -36,7 +37,10 @@ export default function App() {
         <WorkExperience />
       </div>
 
-"
+
+      <div id="school">
+        <Education/>
+      </div>
     </>
   );
 }

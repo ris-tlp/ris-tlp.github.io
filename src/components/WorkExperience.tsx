@@ -6,7 +6,6 @@ export default function WorkExperience() {
             <div className="flex flex-col space-y-8">
                 <h1 className="text-8xl font-bold text-center md:text-start">work.</h1>
 
-
                 <WorkCard
                     logo="https://i.imgur.com/30ZxJVd.png"
                     jobTitle="Software Engineer"
@@ -18,7 +17,6 @@ export default function WorkExperience() {
                      Collaborated with a multidisciplinary agile team and stakeholders from the Maryland government to deliver solutions that are being used to support and meet the state's energy reduction goals."
                 />
 
-
                 <WorkCard
                     logo="https://i.imgur.com/30ZxJVd.png"
                     jobTitle="Software Engineer Intern"
@@ -28,9 +26,6 @@ export default function WorkExperience() {
                     location="Dhahran, KSA"
                     description="Collaborated with the data engineering team to enhance the B2B e-commerce platform’s data infrastructure, developing ETL pipelines to import over 100,000 SKUs from external vendors, optimizing queries for improved performance, and strengthening QA processes to enhance platform reliability."
                 />
-
-
-
 
             </div>
         </section>

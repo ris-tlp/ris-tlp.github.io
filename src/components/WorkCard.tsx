@@ -7,7 +7,7 @@ interface WorkCardProps {
   companyUrl: string;
   dates: string;
   location: string;
-  description: string; // Change description to an array of strings
+  description: string;
 }
 
 export default function WorkCard({
@@ -41,7 +41,7 @@ export default function WorkCard({
         </p>
 
         <p className="font-light text-start text-lg text-cream mt-4">
-            {description}
+          {description}
         </p>
       </div>
     </div>
