@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import About from "./components/About";
 import "./App.css";
 
 export default function App() {
@@ -9,7 +10,9 @@ export default function App() {
 
       <Hero />
 
-      <div className="h-[200vh] bg-sage-green"></div>
+      <About />
+
+      {/* <div className="h-[200vh] bg-sage-green"></div> */}
     </>
   );
 }
