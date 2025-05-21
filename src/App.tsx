@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Slider from "./components/Slider";
-import Work from "./components/Work";
+import WorkExperience from "./components/WorkExperience";
 
 import "./App.css";
 
@@ -19,7 +19,7 @@ export default function App() {
         as="div"
         id="hero"
         onChange={(inView) => setIsHeroVisible(inView)}
-        threshold={0.3}
+        threshold={0.7}
       >
         <div id="hero">
           <Hero />
@@ -33,8 +33,10 @@ export default function App() {
       </div>
 
       <div id="work">
-        <Work />
+        <WorkExperience />
       </div>
+
+"
     </>
   );
 }
