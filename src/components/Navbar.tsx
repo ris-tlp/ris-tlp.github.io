@@ -6,9 +6,11 @@ export default function Navbar() {
     const handleScroll = () => {
       const navbar = document.getElementById("navbar");
       if (window.scrollY > window.innerHeight / 2) {
-        navbar?.classList.remove("-translate-y-full");
+        navbar?.classList.remove("opacity-0");
+        navbar?.classList.add("opacity-100");
       } else {
-        navbar?.classList.add("-translate-y-full");
+        navbar?.classList.remove("opacity-100");
+        navbar?.classList.add("opacity-0");
       }
     };
 
@@ -19,7 +21,7 @@ export default function Navbar() {
   return (
     <div
       id="navbar"
-      className="fixed top-0 left-0 w-full bg-[#738678] text-[#fffdd0] flex justify-between items-center px-6 py-4 transition-transform transform -translate-y-full z-50"
+      className="fixed top-0 left-0 w-full bg-[#738678] text-[#fffdd0] flex justify-between items-center px-6 py-4 transition-opacity duration-500 opacity-0 z-50"
     >
       <h1 className="text-2xl font-bold">omar khan.</h1>
       <div className="flex space-x-4">
