@@ -1,24 +1,39 @@
+import { useState } from "react";
+import { InView } from "react-intersection-observer";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Slider from "./components/Slider";
+import Work from "./components/Work";
 
 import "./App.css";
 
-
 export default function App() {
+  const [isHeroVisible, setIsHeroVisible] = useState(false);
+
   return (
     <>
       <Navbar />
 
-      <Slider />
+      <InView
+        as="div"
+        id="hero"
+        onChange={(inView) => setIsHeroVisible(inView)}
+        threshold={0.3}
+      >
+        <div id="hero">
+          <Hero />
+        </div>
+      </InView>
 
-      <div id="hero">
-        <Hero />
-      </div>
+      <Slider isHeroVisible={isHeroVisible} />
 
       <div id="about">
         <About />
+      </div>
+
+      <div id="work">
+        <Work />
       </div>
     </>
   );
