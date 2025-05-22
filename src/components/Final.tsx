@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 export default function Final() {
     return (
         <section className="container p-4 h-screen">
-            <div className="flex flex-col space-y-8">
+            <div className="flex flex-col space-y-8 mx-15 md:mx-0">
                 <h1 className="text-8xl font-cursive text-center md:text-center mb-10">fin.</h1>
 
                 <div className="flex flex-col items-center justify-between space-x-8">

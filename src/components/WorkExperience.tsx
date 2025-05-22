@@ -5,7 +5,7 @@ export default function WorkExperience() {
         <section className="container p-4 h-screen">
             <div className="flex flex-col space-y-8">
                 <h1 className="text-8xl font-bold text-center md:text-start">work.</h1>
-                <div className="mx-15 my-15 md:my-0">
+                <div className="mx-15">
                     <WorkCard
                         logo="https://i.imgur.com/30ZxJVd.png"
                         jobTitle="Software Engineer"

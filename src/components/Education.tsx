@@ -4,7 +4,7 @@ import EducationCard from "./EducationCard";
 export default function Education() {
     return (
         <section className="container p-4 h-screen flex items-center justify-center">
-            <div className="flex flex-col space-y-8">
+            <div className="flex flex-col space-y-8 mx-15 md:mx-0">
                 <h1 className="text-8xl font-bold text-center md:text-start md:-ml-3">school.</h1>
 
 

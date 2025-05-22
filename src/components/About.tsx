@@ -9,7 +9,7 @@ export default function About() {
   return (
     <>
       <section className="container p-4 h-screen">
-        <div className="flex flex-col space-y-8">
+        <div className="flex flex-col space-y-8 mx-15 md:mx-0">
           <h1 className="text-8xl font-bold text-center md:text-start">about.</h1>
 
           <div className="grid md:grid-cols-2 gap-4 md:gap-8 max-w-5xl mx-auto">
