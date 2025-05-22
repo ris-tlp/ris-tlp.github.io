@@ -8,6 +8,7 @@ import WorkExperience from "./components/WorkExperience";
 
 import "./App.css";
 import Education from "./components/Education";
+import Projects from "./components/Projects";
 
 export default function App() {
   const [isHeroVisible, setIsHeroVisible] = useState(false);
@@ -39,7 +40,11 @@ export default function App() {
 
 
       <div id="school">
-        <Education/>
+        <Education />
+      </div>
+
+      <div id="projects">
+        <Projects />
       </div>
     </>
   );
