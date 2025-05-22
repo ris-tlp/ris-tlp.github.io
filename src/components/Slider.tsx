@@ -57,6 +57,16 @@ export default function Slider({ isHeroVisible }: SliderProps) {
       >
         projects.
       </Link>
+
+      <Link
+        to="fin"
+        smooth={true}
+        duration={500}
+        offset={-40}
+        className="cursor-pointer px-4 py-2"
+      >
+        fin.
+      </Link>
     </div>
   );
 }

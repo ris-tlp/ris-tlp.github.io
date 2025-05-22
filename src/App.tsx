@@ -5,10 +5,12 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Slider from "./components/Slider";
 import WorkExperience from "./components/WorkExperience";
-
-import "./App.css";
 import Education from "./components/Education";
 import Projects from "./components/Projects";
+import Final from "./components/Final";
+
+import "./App.css";
+
 
 export default function App() {
   const [isHeroVisible, setIsHeroVisible] = useState(false);
@@ -45,6 +47,10 @@ export default function App() {
 
       <div id="projects">
         <Projects />
+      </div>
+
+      <div id="fin">
+        <Final />
       </div>
     </>
   );
