@@ -8,7 +8,7 @@ export default function Final() {
 
                 <div className="flex flex-col items-center justify-between space-x-8">
                     <img
-                        src="src/assets/picture.jpg"
+                        src="picture.jpg"
                         alt="picture"
                         className="w-1/3 h-1/3 rounded-4xl object-cover"
                     />
