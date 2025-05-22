@@ -30,6 +30,7 @@ export default function WorkCard({
             className="text-xl text-cream flex items-center hover:underline"
           >
             {companyName}
+            <FaExternalLinkAlt className="ml-2 text-cream" />
           </a>
         </div>
 
