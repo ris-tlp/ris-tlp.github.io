@@ -24,7 +24,7 @@ export default function WorkExperience() {
                         companyUrl="https://penny.co/"
                         dates="May 2021 - July 2021"
                         location="Dhahran, KSA"
-                        description="Collaborated with the data engineering team to enhance the B2B e-commerce platform’s data infrastructure, developing ETL pipelines to import over 100,000 SKUs from external vendors, optimizing queries for improved performance, and strengthening QA processes to enhance platform reliability."
+                        description="Collaborated with the data engineering team to enhance Penny's B2B e-commerce platform’s data infrastructure, developing ETL pipelines to import over 100,000 SKUs from external vendors, optimizing queries for improved performance, and strengthening QA processes to enhance platform reliability."
                     />
                 </div>
             </div>
