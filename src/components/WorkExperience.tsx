@@ -2,9 +2,9 @@ import WorkCard from "./WorkCard";
 
 export default function WorkExperience() {
     return (
-        <section className="container p-4 h-screen">
+        <section className="container p-4 h-fit md:h-screen mt-10">
             <div className="flex flex-col space-y-8">
-                <h1 className="text-8xl font-bold text-center md:text-start">work.</h1>
+                <h1 className="text-5xl md:text-8xl font-bold text-center md:text-start">work.</h1>
                 <div className="mx-15">
                     <WorkCard
                         logo="https://i.imgur.com/30ZxJVd.png"
