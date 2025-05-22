@@ -15,7 +15,7 @@ export default function EducationCard({
 }: EducationCardProps) {
     return (
         <>
-            <h2 className="text-2xl font-bold">
+            <h2 className="text-3xl font-bold">
                 <a href={universityUrl} target="_blank" rel="noopener noreferrer" className="hover:underline">
                     {universityName}
                 </a>
@@ -23,7 +23,7 @@ export default function EducationCard({
 
             <h3 className="text-2xl">{degreeName}</h3>
 
-            <p className="text-md font-thin">
+            <p className="text-md">
                 {dates} | {location}
             </p>
         </>
