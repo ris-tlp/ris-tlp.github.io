@@ -10,10 +10,10 @@ export default function Final() {
                     <img
                         src="picture.jpg"
                         alt="picture"
-                        className="w-1/3 h-1/3 rounded-4xl object-cover"
+                        className="w-32 h-32 md:w-1/3 md:h-1/3 rounded-lg md:rounded-4xl object-cover"
                     />
 
-                    <div className="text-center mt-8 text-2xl text-cream">
+                    <div className="text-center mt-8 text-md md:text-2xl text-cream">
                         <p>Thanks for reading! Feel free to reach out to me through any of my social links for a detailed resume or anything else you'd like to talk about. I'd love to connect!</p>
                     </div>
 
@@ -23,21 +23,21 @@ export default function Final() {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <FaLinkedin className="text-5xl hover:text-white transition" />
+                            <FaLinkedin className="text-lg md:text-5xl hover:text-white transition" />
                         </a>
                         <a
                             href="https://github.com/ris-tlp"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <FaGithub className="text-5xl hover:text-white transition" />
+                            <FaGithub className="text-lg md:text-5xl hover:text-white transition" />
                         </a>
                         <a
                             href="mailto:omarkhantlp@gmail.com"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <FaEnvelope className="text-5xl hover:text-white transition" />
+                            <FaEnvelope className="text-lg md:text-5xl hover:text-white transition" />
                         </a>
                     </div>
                 </div>
