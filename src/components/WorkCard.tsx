@@ -20,7 +20,7 @@ export default function WorkCard({
 }: WorkCardProps) {
   return (
     <div className="flex flex-row w-full max-w-5xl p-4 mx-auto">
-      <div className="flex flex-col items-start">
+      <div className="flex flex-col items-center md:items-start">
         <h2 className="text-4xl font-extrabold text-cream">{jobTitle}</h2>
         <div className="flex items-center">
           <a
@@ -38,7 +38,7 @@ export default function WorkCard({
           {dates} | {location}
         </p>
 
-        <p className="font-light text-start text-lg text-cream mt-4">
+        <p className="font-light text-justify md:text-start text-lg text-cream mt-4">
           {description}
         </p>
       </div>

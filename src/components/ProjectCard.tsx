@@ -52,7 +52,7 @@ export default function ProjectCard({
                     )}
                 </div>
 
-                <p className={`mb-4 ${reverse ? "md:text-right" : "md:text-left"}`}>{description}</p>
+                <p className={`mb-4 text-justify ${reverse ? "md:text-right" : "md:text-left"}`}>{description}</p>
 
                 <div className="flex flex-wrap justify-center gap-2 mb-4">
                     {techStack.map((tech, index) => (

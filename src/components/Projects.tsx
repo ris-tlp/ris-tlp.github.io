@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 export default function Projects() {
     return (
         <>
-            <section className="container p-4 h-fit">
+            <section className="container p-4 space-y-8 h-fit">
                 <h1 className="text-8xl font-bold text-center md:text-start">projects.</h1>
 
                 <div className="mx-15 my-15 md:my-0">
