@@ -21,7 +21,6 @@ export default function Projects() {
                         title="Audiophile Analytics Pipeline"
                         description="An ETL pipeline that extracts data from Crinacle’s Headphone and In-Ear Monitor databases, processes and prepares the data for integration into a Metabase dashboard. This dashboard provides detailed analytics, helping users make informed purchasing decisions on headphones or IEMs by evaluating custom criteria that balance price and performance."
                         githubUrl="https://github.com/ris-tlp/audiophile-e2e-pipeline"
-                        // imageUrl="https://raw.githubusercontent.com/ris-tlp/audiophile-e2e-pipeline/refs/heads/main/images/architecture.jpeg"
                         imageUrl="https://i.imgur.com/new0qvF.png"
                         techStack={["Python", "SQL", "AWS", "dbt", "Airflow", "Terraform", "Metabase", "Docker"]}
                         isGithub={true}
@@ -33,7 +32,7 @@ export default function Projects() {
                         description="Wijha is a collaborative, mobile-based tourism app designed for the MENA region. It connects users with local tour guides, enabling experiences that can only be experienced through local expertise, while also offering a platform for communication between locals and tourists. Wijha serves as a comprehensive solution for both tourists and locals."
                         githubUrl="https://github.com/ris-tlp/wijha-api-v2"
                         imageUrl="https://i.imgur.com/rxw4YkW.png"
-                        techStack={["Python", "Flask", "MongoDB", "AWS", "Terraform", "GitHub Actions", "Docker"]}
+                        techStack={["Python", "Django", "Flutter", "MongoDB", "AWS", "Terraform", "GitHub Actions", "Docker"]}
                         isGithub={true}
                         reverse={false}
                     />
@@ -49,13 +48,24 @@ export default function Projects() {
                     />
 
                     <ProjectCard
-                        title="MathQuest"
-                        description="MathQuest is an online learning management system designed specifically to deliver math courses and curriculum in an asynchronous format, allowing students to learn at their own pace. It provides capabilities for instructors to create course offerings, design quizzes and assignments, grade student work automatically, facilitate text discussions, and continually update course content, while students can browse courses, register, take assessments, participate in discussions with classmates, and track their progress."
-                        githubUrl="https://github.com/ris-tlp/mathquest"
-                        imageUrl="https://i.imgur.com/hs6Uj16.png"
-                        techStack={["Python", "PHP", "SQL", "AWS", "Flask", "GitHub Actions", "Docker"]}
-                        isGithub={true}
+                        title="Galaxy Morphology Classification"
+                        description="Classification of astronomical galaxies using their morphological features through machine learning models using categories taken from Edwin Hubble’s galaxy classification scheme, better known as the Hubble Tuning Fork. This classification scheme classifies galaxies according to the different stages throughout a galaxy’s lifetime. This project explores the importance of a comprehensive model selection and evaluation process by cross-comparing the performance of multiple models."
+                        websiteUrl="https://drive.google.com/file/d/1uzorFwZ9Hphw0Lhut7nsgc7GSq-ppjEo/view?usp=sharing"
+                        imageUrl="https://i.imgur.com/lgIJiUp.png"
+                        techStack={["Python", "KNN", "Naive Bayes", "Decision Trees", "Logisitc Regression", "LDA", "NumPy", "Pandas"]}
+                        isGithub={false}
                         reverse={false}
+                    />
+
+
+                    <ProjectCard
+                        title="MacOS UNIX Rice"
+                        description="Dots/configuration files for various customized MacOS and third-party components and software that I use on a daily basis."
+                        websiteUrl="https://github.com/ris-tlp/dotfiles"
+                        imageUrl="https://i.imgur.com/ASys2Tu.jpeg"
+                        techStack={["Shell", "Lua", "CSS"]}
+                        isGithub={true}
+                        reverse={true}
                     />
 
                 </div>
