@@ -19,7 +19,7 @@ export default function Projects() {
 
                     <ProjectCard
                         title="Audiophile Analytics Pipeline"
-                        description="An ETL pipeline that extracts data from Crinacle’s Headphone and In-Ear Monitor databases, processes and prepares the data for integration into a Metabase dashboard. This dashboard provides detailed analytics, helping users make informed purchasing decisions on headphones or IEMs by evaluating custom criteria that balance price and performance."
+                        description="An ETL pipeline that extracts data from Crinacle’s Headphone and In Ear Monitor (IEM) databases, processes and prepares the data for integration into a Metabase dashboard. This dashboard provides detailed analytics, helping users make informed purchasing decisions on headphones or IEMs by evaluating custom criteria that balance price and performance."
                         githubUrl="https://github.com/ris-tlp/audiophile-e2e-pipeline"
                         imageUrl="https://i.imgur.com/new0qvF.png"
                         techStack={["Python", "SQL", "AWS", "dbt", "Airflow", "Terraform", "Metabase", "Docker"]}
@@ -29,7 +29,7 @@ export default function Projects() {
 
                     <ProjectCard
                         title="Wijha Tourism"
-                        description="Wijha is a collaborative, mobile-based tourism app designed for the MENA region. It connects users with local tour guides, enabling experiences that can only be experienced through local expertise, while also offering a platform for communication between locals and tourists. Wijha serves as a comprehensive solution for both tourists and locals."
+                        description="Wijha is a collaborative, mobile-based tourism app designed for the Middle East and North Africa (MENA) region. It connects users with local tour guides, enabling experiences that can only be experienced through local expertise, while also offering a platform for communication between locals and tourists."
                         githubUrl="https://github.com/ris-tlp/wijha-api-v2"
                         imageUrl="https://i.imgur.com/rxw4YkW.png"
                         techStack={["Python", "Django", "Flutter", "MongoDB", "AWS", "Terraform", "GitHub Actions", "Docker"]}
