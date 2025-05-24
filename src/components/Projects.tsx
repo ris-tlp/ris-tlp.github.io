@@ -9,7 +9,7 @@ export default function Projects() {
                 <div className="mx-15 my-15 md:my-0">
                     <ProjectCard
                         title="Observation Tracker"
-                        description="Observation Tracker is a powerful tool designed for both amateur and professional astronomers. It offers a platform to easily record, organize, and share celestial discoveries. Built with a fully HATEOAS-compliant Spring Boot API, it ensures robust, scalable performance with a production-grade deployment, capable of handling high-volume data processing and ensuring seamless integration with external services."
+                        description="Observation Tracker is a powerful tool designed for both amateur and professional astronomers. It offers a platform to easily record, organize, and share celestial discoveries. Built with a fully HATEOAS-compliant Spring Boot API, it features robust, scalable performance with production-grade infrastructure, capable of handling high-volume data throughput and ensuring seamless integration with AWS services."
                         githubUrl="https://github.com/ris-tlp/observation-tracker"
                         imageUrl="https://raw.githubusercontent.com/ris-tlp/observation-tracker/refs/heads/main/media/architecture_diagram.png"
                         techStack={["Java", "Spring Boot", "Hibernate", "AWS", "Redis", "RabbitMQ", "GitHub Actions", "Terraform", "Docker"]}
