@@ -22,7 +22,7 @@ export default function Hero() {
               <FaGithub className="text-3xl hover:text-white transition" />
             </a>
             <a
-              href="mailto:omarkhantlp@gmail.com"
+              href="mailto:omarkhanplt@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
             >

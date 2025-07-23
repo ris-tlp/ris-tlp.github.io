@@ -38,7 +38,7 @@ export default function Navbar() {
           <FaGithub className="text-xl hover:text-white" />
         </a>
         <a
-          href="mailto:omarkhantlp@gmail.com"
+          href="mailto:omarkhanplt@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
